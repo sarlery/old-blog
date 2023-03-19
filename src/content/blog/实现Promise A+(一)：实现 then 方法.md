@@ -1,7 +1,7 @@
 ---
 author: Mh
 pubDatetime: 2020-08-08T11:26:34Z
-title: 手实现Promise A+（一）：实现 then 方法
+title: 手实现 Promise A+（一）：实现 then 方法
 postSlug: manual-implementation-promise-1
 featured: false
 draft: false

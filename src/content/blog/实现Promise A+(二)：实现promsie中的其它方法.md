@@ -1,7 +1,7 @@
 ---
 author: Mh
 pubDatetime: 2020-08-08T11:28:33Z
-title: 手动实现Promise/A+（二）：实现 promsie 中的其它方法
+title: 手动实现 PromiseA+（二）：实现 promsie 中的其它方法
 postSlug: manual-implementation-promise-2
 featured: false
 draft: false
