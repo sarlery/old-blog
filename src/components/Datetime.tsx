@@ -28,16 +28,9 @@ export default function Datetime({ datetime, size = "sm", className }: Props) {
 const FormattedDatetime = ({ datetime }: { datetime: string | Date }) => {
   const myDatetime = new Date(datetime);
 
-  const date = myDatetime.toLocaleDateString([], {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+  const date = myDatetime.toLocaleDateString("zh-CN");
 
-  const time = myDatetime.toLocaleTimeString([], {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
+  const time = myDatetime.toLocaleTimeString("zh-CN");
 
   return (
     <>

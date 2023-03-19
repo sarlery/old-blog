@@ -95,11 +95,9 @@ export default function SearchBar({ searchList }: Props) {
 
       {inputVal.length > 1 && (
         <div className="mt-8">
-          Found {searchResults?.length}
-          {searchResults?.length && searchResults?.length === 1
-            ? " result"
-            : " results"}{" "}
-          for '{inputVal}'
+          找到 {searchResults?.length || 0}
+          { " 个结果" }
+          是 '{inputVal}'
         </div>
       )}
 

@@ -1,13 +1,17 @@
 import type { Site, SocialObjects } from "./types";
 
+const authorNickname = '多云转晴';
+
 export const SITE: Site = {
   website: "https://sarlery.github.io",
-  author: "Mh",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "多云转晴的博客",
-  ogImage: "astropaper-og.jpg",
+  author: authorNickname,
+  desc: `${authorNickname}的博客网站，分享前端、互联网技术、日常等相关话题`,
+  title: `${authorNickname}的博客网站`,
+  ogImage: "",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  /** 博客一页多少条（分页） */
+  postPerPage: 6,
+  email: '643360052@qq.com',
 };
 
 export const LOGO_IMAGE = {

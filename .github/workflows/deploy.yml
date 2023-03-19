@@ -1,4 +1,4 @@
-name: GitHub Pages Astro CI
+name: GitHub Pages MyBlog CI
 
 on:
   # 每次推送到 `master` 分支时触发这个“工作流程”
@@ -18,9 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: 检查仓库中正在使用的 Git
         uses: actions/checkout@v3
-      - name: Install, build, and upload your site
+      - name: 下载、打包、以及上传我的网站，使用 astro 的 action
         uses: withastro/action@v0
 
   deploy:

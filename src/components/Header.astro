@@ -67,7 +67,7 @@ const { activeNav } = Astro.props;
                 activeNav === "search" ? "active" : ""
               }`}
               ariaLabel="search"
-              title="Search"
+              title="搜索"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +161,7 @@ const { activeNav } = Astro.props;
     @apply col-span-1;
   }
   nav a.active {
-    @apply underline decoration-wavy decoration-2 underline-offset-4;
+    @apply underline decoration-wavy decoration-2 underline-offset-4 text-skin-accent;
   }
   nav a.active svg {
     @apply fill-skin-accent;
